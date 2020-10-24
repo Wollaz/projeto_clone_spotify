@@ -82,12 +82,21 @@ h1{
     color: #fff;
 }
 
-/*Extra small devices (portrait phones, less than 576px)
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     h1 {
         font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
     }
 }
 
