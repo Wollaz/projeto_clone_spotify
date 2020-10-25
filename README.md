@@ -1,2 +1,4 @@
-# projeto_clone_spotify
- Este projeto tem como base, clonar o site do Spotify que também foi criado utilizando Bootstrap
+# Site Clone Spotify
+ Este projeto tem como base, criar um site bem parecido com o Site original do Spotify. Neste projeto foi utilizado 
+ 
+ # HTML5, CSS3 e Bootstrap
