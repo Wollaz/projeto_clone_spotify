@@ -8,6 +8,7 @@
 ------------------------------ */
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -88,6 +89,10 @@ nav.navbar-transparente {
     color: #7c25f8;
 }
 
+#recursos {
+    color: #fff;
+}
+
 #recursos h2 {
     color: #fff;
 }
@@ -101,6 +106,12 @@ nav.navbar-transparente {
     padding: 10px 0px;
 }
 
+.rotacionar {
+    padding-left: 80px;
+    -ms-transform: rotate(30deg); /* IE9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera... */
+    transform: rotate(30deg);
+}
 /* Tipografia
 ------------------------------ */
 h1{
@@ -127,6 +138,7 @@ h3 {
 @media (max-width: 575.98px) {
     .btn-custom {
         margin: 10px 15px;
+        font-size: 1em;
     }
 }
 
